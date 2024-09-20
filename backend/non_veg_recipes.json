@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "curry powder", "onion", "tomato"],
+    "steps": [
+      "Cut chicken into bite-sized pieces.",
+      "Heat oil in a pan and sauté the onions until translucent.",
+      "Add the chicken pieces and cook until browned on all sides.",
+      "Add the tomatoes, curry powder, salt, and water. Bring to a boil.",
+      "Reduce heat and simmer for 20-25 minutes, until chicken is cooked through and the sauce has thickened.",
+      "Garnish with chopped cilantro and serve hot with rice or naan."
+    ],
+    "calories": 300,
+    "nutrients": {
+      "protein": 25,
+      "carbs": 10,
+      "fat": 15,
+      "fiber": 2,
+      "vitamin_a": 10,
+      "vitamin_c": 15,
+      "calcium": 4,
+      "iron": 6
+    }
+  },
+  {
+    "id": 2,
+    "name": "Grilled Fish",
+    "ingredients": ["fish fillets", "lemon", "garlic", "olive oil"],
+    "steps": [
+      "Preheat grill to medium-high heat.",
+      "In a shallow dish, combine the fish fillets, minced garlic, lemon juice, salt, and black pepper. Let marinate for 15-20 minutes.",
+      "Brush the grill grates with olive oil.",
+      "Place the marinated fish fillets on the grill and cook for 4-5 minutes per side, or until fish flakes easily with a fork.",
+      "Serve the grilled fish with lemon wedges and a drizzle of olive oil."
+    ],
+    "calories": 250,
+    "nutrients": {
+      "protein": 30,
+      "carbs": 0,
+      "fat": 10,
+      "omega_3": 2,
+      "vitamin_d": 20,
+      "vitamin_b12": 15,
+      "selenium": 25
+    }
+  },
+  {
+    "id": 3,
+    "name": "Mutton Biryani",
+    "ingredients": ["mutton", "basmati rice", "onion", "yogurt", "spices"],
+    "steps": [
+      "Marinate the mutton pieces with yogurt, ginger-garlic paste, chili powder, coriander powder, cumin powder, garam masala, and salt. Refrigerate for at least 2 hours.",
+      "Soak the basmati rice in water for 30 minutes.",
+      "Heat oil in a pan and sauté the onions until golden brown.",
+      "Add the marinated mutton and cook until the meat is tender.",
+      "Drain the rice and layer it over the cooked mutton.",
+      "Cover and cook on low heat for 20-25 minutes.",
+      "Fluff the biryani with a fork and serve hot with raita."
+    ],
+    "calories": 642,
+    "nutrients": {
+      "protein": 30,
+      "carbs": 60,
+      "fat": 25,
+      "iron": 15,
+      "zinc": 20,
+      "vitamin_b12": 25
+    }
+  },
+  {
+    "id": 4,
+    "name": "Beef Stroganoff",
+    "ingredients": ["beef tenderloin", "mushrooms", "onion", "sour cream", "egg noodles"],
+    "steps": [
+      "Cut the beef into thin strips.",
+      "Heat oil in a pan and sauté the onions until translucent.",
+      "Add the mushrooms and cook until they release their moisture.",
+      "Add the beef strips and cook until browned on all sides.",
+      "Stir in the sour cream, Dijon mustard, salt, and pepper. Simmer for 5 minutes.",
+      "Cook the egg noodles according to package instructions.",
+      "Serve the beef stroganoff over the cooked egg noodles, garnished with chopped parsley."
+    ],
+    "calories": 450,
+    "nutrients": {
+      "protein": 35,
+      "carbs": 40,
+      "fat": 20,
+      "vitamin_b12": 30,
+      "zinc": 15,
+      "iron": 20
+    }
+  },
+  {
+    "id": 5,
+    "name": "Shrimp Tacos",
+    "ingredients": ["shrimp", "corn tortillas", "cabbage", "avocado", "lime"],
+    "steps": [
+      "Peel and devein the shrimp. Pat them dry with paper towels.",
+      "In a bowl, combine the shrimp, chili powder, cumin, garlic powder, salt, and lime juice. Toss to coat.",
+      "Heat oil in a pan and sauté the shrimp until cooked through, about 2-3 minutes per side.",
+      "Warm the corn tortillas according to package instructions.",
+      "To assemble the tacos, place some shredded cabbage in each tortilla, top with the cooked shrimp, diced avocado, and a squeeze of fresh lime juice."
+    ],
+    "calories": 350,
+    "nutrients": {
+      "protein": 25,
+      "carbs": 30,
+      "fat": 15,
+      "vitamin_c": 20,
+      "vitamin_e": 10,
+      "omega_3": 15
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pork Chops with Applesauce",
+    "ingredients": ["pork chops", "apples", "cinnamon", "olive oil"],
+    "steps": [
+      "Season the pork chops with salt, pepper, and garlic powder.",
+      "Heat olive oil in a pan and sear the pork chops for 3-4 minutes per side until golden brown.",
+      "Transfer the pork chops to a baking sheet and bake at 400°F for 10-12 minutes, or until cooked through.",
+      "In a saucepan, combine the chopped apples, water, brown sugar, cinnamon, and a pinch of salt.",
+      "Bring the mixture to a boil, then reduce heat and simmer for 15-20 minutes, stirring occasionally, until the apples are soft.",
+      "Mash the apples with a fork or potato masher to create a chunky applesauce.",
+      "Serve the pork chops with the homemade applesauce on the side."
+    ],
+    "calories": 400,
+    "nutrients": {
+      "protein": 30,
+      "carbs": 20,
+      "fat": 25,
+      "vitamin_c": 15,
+      "potassium": 300,
+      "niacin": 10
+    }
+  },
+  {
+    "id": 7,
+    "name": "Lemon Herb Roasted Chicken",
+    "ingredients": ["chicken", "lemon", "rosemary", "garlic", "olive oil"],
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Pat the chicken dry with paper towels and season the cavity with salt and pepper.",
+      "In a small bowl, combine the minced garlic, chopped rosemary, lemon zest, olive oil, salt, and pepper.",
+      "Rub the garlic-herb mixture all over the chicken, including under the skin.",
+      "Truss the chicken with kitchen string and place it on a roasting rack in a baking pan.",
+      "Roast the chicken for 1.5 to 2 hours, or until a meat thermometer inserted into the thickest part of the thigh reads 165°F (75°C).",
+      "Let the chicken rest for 10 minutes before carving and serving."
+    ],
+    "calories": 500,
+    "nutrients": {
+      "protein": 40,
+      "carbs": 5,
+      "fat": 30,
+      "vitamin_a": 15,
+      "vitamin_c": 20,
+      "niacin": 15
+    }
+  },
+  {
+    "id": 8,
+    "name": "Spicy Tuna Poke Bowl",
+    "ingredients": ["sushi-grade tuna", "soy sauce", "sesame oil", "avocado", "rice", "seaweed"],
+    "steps": [
+      "Cook the rice according to package instructions and let it cool.",
+      "In a bowl, combine the diced tuna, soy sauce, sesame oil, sriracha, minced garlic, and sesame seeds. Mix well and let marinate for 10 minutes.",
+      "In a serving bowl, layer the cooled rice, marinated tuna, diced avocado, shredded carrots, sliced cucumber, and chopped scallions.",
+      "Top with toasted sesame seeds and crumbled seaweed sheets.",
+      "Serve immediately, with extra soy sauce and sriracha on the side if desired."
+    ],
+    "calories": 480,
+    "nutrients": {
+      "protein": 35,
+      "carbs": 50,
+      "fat": 15,
+      "omega_3": 20,
+      "vitamin_c": 15,
+      "potassium": 400
+    }
+  }
+]

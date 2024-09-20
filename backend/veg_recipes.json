@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Veggie Stir Fry",
+      "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce"],
+      "steps": ["1. Cut vegetables.", "2. Stir fry vegetables in a pan.", "3. Add soy sauce and cook for 5 minutes."],
+      "calories": 200,
+      "nutrients": "Protein: 5g, Carbs: 20g, Fat: 10g"
+    },
+    {
+      "id": 2,
+      "name": "Veggie Salad",
+      "ingredients": ["lettuce", "tomato", "cucumber", "olive oil"],
+      "steps": ["1. Chop vegetables.", "2. Mix vegetables in a bowl.", "3. Add olive oil and toss."],
+      "calories": 150,
+      "nutrients": "Protein: 2g, Carbs: 10g, Fat: 12g"
+    }
+]  
