@@ -1,0 +1,58 @@
+/* SignupPage.css */
+
+body, html {
+  height: 100%; /* Ensure the body takes the full height */
+  margin: 0; /* Remove default margin */
+}
+
+.form-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 70vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Optional: background color for the page */
+}
+
+.form {
+  padding: 20px;
+  width: 300px; /* Width of the form */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spacing between inputs */
+  background-color: #fff; /* Form background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for the form */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.toggle-text {
+  font-size: 14px;
+  color: #3B82F6;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #3B82F6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #2563EB;
+}

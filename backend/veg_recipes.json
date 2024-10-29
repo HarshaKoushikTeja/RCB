@@ -1,18 +1,93 @@
 [
-    {
-      "id": 1,
-      "name": "Veggie Stir Fry",
-      "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce"],
-      "steps": ["1. Cut vegetables.", "2. Stir fry vegetables in a pan.", "3. Add soy sauce and cook for 5 minutes."],
-      "calories": 200,
-      "nutrients": "Protein: 5g, Carbs: 20g, Fat: 10g"
-    },
-    {
-      "id": 2,
-      "name": "Veggie Salad",
-      "ingredients": ["lettuce", "tomato", "cucumber", "olive oil"],
-      "steps": ["1. Chop vegetables.", "2. Mix vegetables in a bowl.", "3. Add olive oil and toss."],
-      "calories": 150,
-      "nutrients": "Protein: 2g, Carbs: 10g, Fat: 12g"
-    }
-]  
+
+  {
+    "id": 2,
+    "name": "Veggie Salad",
+    "ingredients": ["lettuce", "tomato", "cucumber", "olive oil"],
+    "steps": [
+      "Chop vegetables into small pieces.",
+      "Mix all vegetables in a bowl.",
+      "Drizzle olive oil over the salad and toss to combine."
+    ],
+    "calories": 150,
+    "nutrients": "Protein: 2g, Carbs: 10g, Fat: 12g"
+  },
+  {
+    "id": 3,
+    "name": "Pasta Primavera",
+    "ingredients": ["pasta", "zucchini", "bell pepper", "olive oil", "garlic", "parmesan"],
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a skillet, heat olive oil over medium heat.",
+      "Add minced garlic and sauté until fragrant.",
+      "Add sliced zucchini and bell pepper, cooking until tender.",
+      "Combine cooked pasta with vegetables and top with grated parmesan."
+    ],
+    "calories": 350,
+    "nutrients": "Protein: 12g, Carbs: 50g, Fat: 15g"
+  },
+  {
+    "id": 4,
+    "name": "Quinoa Bowl",
+    "ingredients": ["quinoa", "chickpeas", "avocado", "spinach", "lemon juice"],
+    "steps": [
+      "Rinse quinoa and cook according to package instructions.",
+      "In a bowl, combine cooked quinoa, chickpeas, diced avocado, and spinach.",
+      "Drizzle with lemon juice and toss to combine."
+    ],
+    "calories": 300,
+    "nutrients": "Protein: 10g, Carbs: 40g, Fat: 12g"
+  },
+  {
+    "id": 5,
+    "name": "Vegetable Soup",
+    "ingredients": ["carrot", "celery", "onion", "vegetable broth", "tomatoes"],
+    "steps": [
+      "Chop all vegetables into small pieces.",
+      "In a large pot, sauté onion, carrot, and celery until softened.",
+      "Add vegetable broth and diced tomatoes.",
+      "Simmer for 20 minutes until vegetables are tender."
+    ],
+    "calories": 100,
+    "nutrients": "Protein: 3g, Carbs: 15g, Fat: 2g"
+  },
+  {
+    "id": 6,
+    "name": "Chickpea Curry",
+    "ingredients": ["chickpeas", "coconut milk", "curry powder", "onion", "spinach"],
+    "steps": [
+      "Sauté chopped onion in a pot until translucent.",
+      "Add curry powder and stir for 1 minute.",
+      "Stir in chickpeas and coconut milk, bringing to a simmer.",
+      "Add spinach and cook until wilted."
+    ],
+    "calories": 400,
+    "nutrients": "Protein: 15g, Carbs: 45g, Fat: 20g"
+  },
+  {
+    "id": 7,
+    "name": "Stuffed Peppers",
+    "ingredients": ["bell peppers", "rice", "black beans", "corn", "cheese"],
+    "steps": [
+      "Preheat the oven to 375°F (190°C).",
+      "Cook rice according to package instructions.",
+      "In a bowl, combine cooked rice, black beans, corn, and cheese.",
+      "Stuff the mixture into halved bell peppers.",
+      "Bake for 25 minutes until peppers are tender."
+    ],
+    "calories": 350,
+    "nutrients": "Protein: 12g, Carbs: 50g, Fat: 15g"
+  },
+  {
+    "id": 8,
+    "name": "Caprese Salad",
+    "ingredients": ["mozzarella", "tomatoes", "basil", "balsamic glaze"],
+    "steps": [
+      "Slice mozzarella and tomatoes into rounds.",
+      "Layer mozzarella, tomatoes, and basil on a plate.",
+      "Drizzle with balsamic glaze before serving."
+    ],
+    "calories": 200,
+    "nutrients": "Protein: 10g, Carbs: 8g, Fat: 14g"
+  }
+]

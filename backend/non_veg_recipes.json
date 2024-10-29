@@ -1,29 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Chicken Curry",
-    "ingredients": ["chicken", "curry powder", "onion", "tomato"],
-    "steps": [
-      "Cut chicken into bite-sized pieces.",
-      "Heat oil in a pan and sauté the onions until translucent.",
-      "Add the chicken pieces and cook until browned on all sides.",
-      "Add the tomatoes, curry powder, salt, and water. Bring to a boil.",
-      "Reduce heat and simmer for 20-25 minutes, until chicken is cooked through and the sauce has thickened.",
-      "Garnish with chopped cilantro and serve hot with rice or naan."
-    ],
-    "calories": 300,
-    "nutrients": {
-      "protein": 25,
-      "carbs": 10,
-      "fat": 15,
-      "fiber": 2,
-      "vitamin_a": 10,
-      "vitamin_c": 15,
-      "calcium": 4,
-      "iron": 6
-    }
-  },
-  {
     "id": 2,
     "name": "Grilled Fish",
     "ingredients": ["fish fillets", "lemon", "garlic", "olive oil"],
@@ -179,4 +155,5 @@
       "potassium": 400
     }
   }
+  
 ]
