@@ -154,6 +154,205 @@
       "vitamin_c": 15,
       "potassium": 400
     }
-  }
-  
-]
+  },
+    {
+      "id": 19,
+      "name": "Butter Chicken",
+      "ingredients": ["chicken", "tomato puree", "cream", "butter", "garam masala"],
+      "steps": [
+        "Marinate the chicken with yogurt, ginger-garlic paste, chili powder, and salt for at least 1 hour.",
+        "Heat butter in a pan and cook the marinated chicken until lightly browned.",
+        "Add tomato puree, garam masala, and cook for 10 minutes.",
+        "Stir in cream, cook for 5 more minutes, and serve hot with naan or rice."
+      ],
+      "calories": 550,
+      "nutrients": {
+        "protein": 35,
+        "carbs": 15,
+        "fat": 35,
+        "vitamin_a": 10,
+        "iron": 8,
+        "calcium": 5
+      }
+    },
+    {
+      "id": 20,
+      "name": "Lamb Kebabs",
+      "ingredients": ["ground lamb", "onion", "cumin", "coriander", "yogurt"],
+      "steps": [
+        "Combine ground lamb with chopped onion, cumin, coriander, and salt.",
+        "Form the mixture into small patties or skewer them.",
+        "Grill or pan-fry the kebabs until fully cooked, about 5-7 minutes per side.",
+        "Serve hot with a side of yogurt and mint chutney."
+      ],
+      "calories": 300,
+      "nutrients": {
+        "protein": 25,
+        "carbs": 5,
+        "fat": 20,
+        "iron": 15,
+        "zinc": 10,
+        "vitamin_b6": 8
+      }
+    },
+    {
+      "id": 21,
+      "name": "Teriyaki Salmon",
+      "ingredients": ["salmon fillets", "soy sauce", "honey", "ginger", "sesame seeds"],
+      "steps": [
+        "Combine soy sauce, honey, and grated ginger to make the teriyaki sauce.",
+        "Marinate the salmon in the sauce for 15-20 minutes.",
+        "Heat a pan and cook the salmon for 3-4 minutes per side, brushing with extra sauce.",
+        "Serve garnished with sesame seeds and green onions."
+      ],
+      "calories": 400,
+      "nutrients": {
+        "protein": 30,
+        "carbs": 10,
+        "fat": 20,
+        "omega_3": 25,
+        "vitamin_d": 30,
+        "selenium": 10
+      }
+    },
+    {
+      "id": 22,
+      "name": "Shrimp Scampi",
+      "ingredients": ["shrimp", "butter", "garlic", "lemon", "parsley"],
+      "steps": [
+        "Melt butter in a pan and add minced garlic.",
+        "Add the shrimp and cook until pink and opaque, about 2-3 minutes per side.",
+        "Squeeze in lemon juice and sprinkle with chopped parsley.",
+        "Serve immediately over pasta or with crusty bread."
+      ],
+      "calories": 320,
+      "nutrients": {
+        "protein": 25,
+        "carbs": 5,
+        "fat": 20,
+        "vitamin_b12": 15,
+        "omega_3": 18,
+        "vitamin_c": 5
+      }
+    },
+    {
+      "id": 23,
+      "name": "Chicken Tikka",
+      "ingredients": ["chicken breast", "yogurt", "garlic", "ginger", "spices"],
+      "steps": [
+        "Marinate chicken in yogurt, garlic, ginger, and spices for at least 1 hour.",
+        "Thread the chicken onto skewers.",
+        "Grill or bake the chicken at 400°F for 20-25 minutes, turning halfway through.",
+        "Serve hot with lemon wedges and onion slices."
+      ],
+      "calories": 300,
+      "nutrients": {
+        "protein": 35,
+        "carbs": 5,
+        "fat": 15,
+        "iron": 10,
+        "vitamin_b6": 15,
+        "calcium": 5
+      }
+    },
+    {
+      "id": 24,
+      "name": "Beef and Broccoli",
+      "ingredients": ["beef strips", "broccoli", "soy sauce", "garlic", "cornstarch"],
+      "steps": [
+        "Marinate the beef strips with soy sauce, garlic, and cornstarch for 15 minutes.",
+        "Stir-fry the broccoli until tender, then remove from the pan.",
+        "Add the beef and cook until browned, then return the broccoli to the pan.",
+        "Serve hot, garnished with sesame seeds."
+      ],
+      "calories": 450,
+      "nutrients": {
+        "protein": 40,
+        "carbs": 20,
+        "fat": 20,
+        "iron": 15,
+        "vitamin_c": 60,
+        "fiber": 4
+      }
+    },
+    {
+      "id": 25,
+      "name": "Fish Tacos",
+      "ingredients": ["white fish fillets", "corn tortillas", "cabbage", "lime", "sour cream"],
+      "steps": [
+        "Season the fish fillets and cook on a skillet until flaky.",
+        "Warm the tortillas and fill with the fish, shredded cabbage, and a squeeze of lime.",
+        "Top with sour cream and serve immediately."
+      ],
+      "calories": 320,
+      "nutrients": {
+        "protein": 20,
+        "carbs": 30,
+        "fat": 12,
+        "vitamin_c": 30,
+        "omega_3": 10,
+        "calcium": 5
+      }
+    },
+    {
+      "id": 26,
+      "name": "Baked Honey Mustard Chicken",
+      "ingredients": ["chicken thighs", "honey", "mustard", "garlic", "thyme"],
+      "steps": [
+        "Preheat oven to 400°F (200°C).",
+        "In a bowl, combine honey, mustard, minced garlic, and thyme.",
+        "Coat the chicken thighs with the honey-mustard mixture and bake for 30-35 minutes.",
+        "Serve hot, garnished with fresh thyme."
+      ],
+      "calories": 450,
+      "nutrients": {
+        "protein": 25,
+        "carbs": 15,
+        "fat": 30,
+        "vitamin_b6": 10,
+        "iron": 8,
+        "niacin": 20
+      }
+    },
+    {
+      "id": 27,
+      "name": "Crab Cakes",
+      "ingredients": ["crab meat", "breadcrumbs", "egg", "mayonnaise", "mustard"],
+      "steps": [
+        "In a bowl, combine crab meat, breadcrumbs, egg, mayonnaise, and mustard.",
+        "Form the mixture into small patties.",
+        "Cook the patties in a skillet over medium heat until golden brown on both sides.",
+        "Serve with lemon wedges and tartar sauce."
+      ],
+      "calories": 300,
+      "nutrients": {
+        "protein": 20,
+        "carbs": 10,
+        "fat": 20,
+        "omega_3": 15,
+        "vitamin_b12": 20,
+        "iron": 5
+      }
+    },
+    {
+      "id": 28,
+      "name": "Pork Ramen",
+      "ingredients": ["pork belly", "ramen noodles", "soy sauce", "ginger", "scallions"],
+      "steps": [
+        "Cook the pork belly in a pot until tender, then slice it thinly.",
+        "Cook ramen noodles according to package instructions.",
+        "In a bowl, combine soy sauce, minced ginger, and hot broth.",
+        "Add the noodles, sliced pork, and garnish with chopped scallions.",
+        "Serve hot with a soft-boiled egg if desired."
+      ],
+      "calories": 600,
+      "nutrients": {
+        "protein": 25,
+        "carbs": 60,
+        "fat": 25,
+        "vitamin_b12": 20,
+        "iron": 10,
+        "niacin": 15
+      }
+    }
+  ]

@@ -1,7 +1,8 @@
 // RecipeList.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Styles/RecipeList.css'
+import '../Styles/RecipeList.css';
+
 const RecipeList = ({ recipes }) => (
   <div>
     <h2>Recipes</h2>

@@ -1,26 +1,28 @@
+// Login.js
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate for navigation after login
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../Context/AuthContext';
 import '../Styles/Login.css';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  const { login } = useAuth(); // Import login function from AuthContext
 
   const handleLogin = async () => {
     try {
       const response = await fetch('http://localhost:5000/login', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
 
       if (response.ok) {
         const data = await response.json();
-        localStorage.setItem('token', data.token); // Store token if needed
-        navigate('/'); // Redirect to home or desired route after login
+        localStorage.setItem('token', data.token); // Store token
+        login(); // Update auth state
+        navigate('/'); // Redirect after login
       } else {
         const errorData = await response.json();
         console.error(errorData.error);
@@ -47,13 +49,8 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <a href="#" className="forgot-password">Forgot password?</a>
-        <button className="submit-button" onClick={handleLogin}>
-          Login
-        </button>
-        <p>
-          Don’t have an account?{' '}
-          <Link to="/signup" className="toggle-text">Signup</Link>
-        </p>
+        <button className="submit-button" onClick={handleLogin}>Login</button>
+        <p>Don't have an account? <Link to="/signup" className="toggle-text">Signup</Link></p>
       </div>
     </div>
   );

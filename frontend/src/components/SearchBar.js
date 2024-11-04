@@ -4,15 +4,17 @@ import '../Styles/SearchBar.css';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
-  const [type, setType] = useState('veg');
+  const [type, setType] = useState('veg'); // Default type can be 'veg'
 
   const handleSearch = () => {
     const token = localStorage.getItem('token'); // Retrieve JWT token
-
+  
     if (token) {
-      onSearch(query, type, token); // Pass the token along with query and type to onSearch
+      // Create the ingredients array
+      const ingredientsArray = query.split(',').map(ingredient => ingredient.trim());
+      // Ensure you send type correctly as a string
+      onSearch({ ingredients: ingredientsArray, type }, token);
     } else {
-      console.error("User is not authenticated. Please log in.");
       alert("Please log in to search for recipes.");
     }
   };
